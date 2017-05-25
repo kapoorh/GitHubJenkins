@@ -9,7 +9,7 @@ namespace GitHubJenkinsTest
         [Test]
         public void SampleTest()
         {
-            Assert.AreEqual("HomeController", "HomeController");
+            Assert.AreEqual("HomeController");
         }
     }
 }
