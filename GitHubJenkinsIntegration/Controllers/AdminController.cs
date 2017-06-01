@@ -16,6 +16,12 @@ namespace GitHubJenkinsIntegration.Controllers
         // GET: /Admin/  
         public ActionResult Index()
         {
+            int i2344 = 0;
+
+
+
+
+
             List<ProjectModels> lstProject = new List<ProjectModels>();
             DataSet ds = new DataSet();
             ds.ReadXml(Server.MapPath("~/XML/ProjectList.xml"));
